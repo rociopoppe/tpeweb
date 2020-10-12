@@ -7,7 +7,5 @@
     </div>
         
 
-   
-    
 {include 'footer.tpl'}
 

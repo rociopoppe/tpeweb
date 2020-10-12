@@ -1,4 +1,5 @@
 {include file="header.tpl"}
+
  <div class="alert alert-danger" role="alert">
       {$mensaje}
   </div>

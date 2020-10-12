@@ -1,5 +1,6 @@
 {include file="header.tpl"}
 
+
 {include file="buscarXCategoria.tpl"}
 
 <div class="container">

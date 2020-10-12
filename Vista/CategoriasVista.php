@@ -6,7 +6,6 @@ class CategoriasVista{
    
     private $title;
     
-
     function __construct(){
         $this->title = "Lista de Categorias";
     }

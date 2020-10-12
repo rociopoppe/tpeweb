@@ -8,6 +8,7 @@
             $this->db = new PDO('mysql:host=localhost;'.'dbname=db_productos;charset=utf8', 'root', '');
         }
 
+
         function GetCategorias(){
             $sentencia=$this->db->prepare("SELECT * FROM categoria");
             $sentencia->execute();
@@ -31,7 +32,6 @@
             $sentencia->execute(array($id));
         
         }
-     
 
         function UpdateCategoria($id_categoria,$descripcion){
             $sentencia = $this->db->prepare("UPDATE categoria SET descripcion= ? WHERE id_categoria=?");

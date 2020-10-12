@@ -41,6 +41,7 @@ class UserControlador{
         }
     }
 
+
     function Logout(){
         session_start();
         session_destroy();
@@ -76,9 +77,6 @@ class UserControlador{
             }
         }
     }
-
-  
-  
 
 
 }

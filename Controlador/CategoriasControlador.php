@@ -48,7 +48,7 @@
             $id= $params[':ID'];
             $categoria=$this->ProductosModelo->GetProductosXCategoria($id);
             if(!empty($categoria)){
-                $error="Esta categoria no puede borrarse. Hay productos asociados";
+                $error="Esta categoria no puede borrarse. Hay productos asociados. Puede borrar los productos individualmente y luego borrar la categoría deseada";
                 $this->ProductosVista->ShowError($error);
             }
             else{

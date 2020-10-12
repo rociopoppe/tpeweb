@@ -36,8 +36,6 @@
          <li><button type="button" class="btn btn-secondary btn btn-light" id="login"><a href="login">LOGIN</a></button></li>
          <li><button type="button" class="btn btn-secondary btn btn-light"id="logout"><a href="logout">LOGOUT</a></button></li>
       </ul>
-    </div>
-     
-  </div>
+    </div>  
   </div>
 </nav> 

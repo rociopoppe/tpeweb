@@ -32,6 +32,8 @@
 
     $r->addRoute("listaproductos","GET","ProductosControlador","GetProductoUser");
 
+    $r->addRoute("usuario", "GET", "ProductosControlador", "VerifiedUser");
+
     $r->addRoute("buscarXCategoria", "POST", "CategoriasControlador", "FiltrarXCategoria");
 
     $r->addRoute("categorias", "GET", "CategoriasControlador", "GetCategorias");
@@ -47,8 +49,6 @@
     $r->addRoute("updateCat/:ID", "POST", "CategoriasControlador", "UpdateCategoria");
 
     $r->addRoute("listacategorias","GET","CategoriasControlador","GetCategoriaUser");
-
-    $r->addRoute("usuario", "GET", "ProductosControlador", "VerifiedUser");
 
     $r->addRoute("login", "GET", "UserControlador", "Login");
 

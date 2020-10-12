@@ -47,7 +47,6 @@ class ProductosVista{
         $smarty->display('templates/verdetalleProducto.tpl');
     }
     
-
     function ShowCrearProducto($productos,$categorias){
         $smarty = new Smarty();
         $smarty->assign('titulo',"Insertar producto");

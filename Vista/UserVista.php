@@ -11,6 +11,7 @@ class UserVista{
         $this->title = "Login";
     }
 
+    
     function ShowLogin($mensaje = ""){
 
         $smarty = new Smarty();

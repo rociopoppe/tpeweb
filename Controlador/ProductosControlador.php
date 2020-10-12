@@ -33,8 +33,6 @@
         function ShowHomeLocation($action){
             header("Location: ".BASE_URL.$action);
         }
-
-        
       
         function GetProductos(){
             $productos = $this->modelo->GetProductos();
@@ -81,7 +79,6 @@
             $productos=$this->modelo->GetProductos();
             $this->vista->ShowProductoUser($productos);
         }
-
 
    
         function EditarProducto($params = null){
